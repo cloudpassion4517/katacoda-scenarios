@@ -1,0 +1,34 @@
+{
+    "icon": "fa-openshift",
+    "title": "Cloud Passion Playground(OpenShift 4.2):Understanding Projects Namespaces & Pods ",
+    "description": "",
+    "pathwayTitle": "OpenShift",
+    "difficulty": "beginner",
+    "time": "60 minutes",
+    "backend": {
+        "imageid": "openshift-4-2"
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboards": [{"name": "Console", "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"}],
+        "uilayout": "terminal-iframe"
+    },
+    "details": {
+        "steps": [{
+            "title": "Login to Cluster",
+            "text": "Login.md"
+        },
+                  {
+            "title": "Understanding pods",
+            "text": "Project.md"
+        }      
+                ],
+        "intro": {
+            "code": "set-env.sh",
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    }
+}
